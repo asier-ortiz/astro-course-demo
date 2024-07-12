@@ -5,6 +5,7 @@ import Main from "../../components/Main.astro";
 import Layout from "../../layouts/Layout.astro";
 import H1 from "../../components/H1.astro";
 import PostList from "../../components/PostList.astro";
+import Pagination from "../../components/Pagination.astro";
 
 export async function getStaticPaths ({paginate}: GetStaticPathsOptions) {
     const allPosts =  await getCollection("posts");
@@ -25,6 +26,12 @@ const posts = page.data as CollectionEntry<"posts">[];
         <p class="text-zinc-900 text-2xl mb-24 max-sm:mb-14">
             Join the community and learn from Music Producers and Enthusiasts
         </p>
+        <div class="mb-12">
+            <Pagination prevURL={page.url.prev} nextURL={page.url.next} />
+        </div>
         <PostList posts={posts} />
+        <div class="mb-36">
+            <Pagination prevURL={page.url.prev} nextURL={page.url.next} />
+        </div>
     </Main>
 </Layout>

@@ -30,10 +30,9 @@ const categories = Array.from(new Set(allCategories));
             Join the community and learn from Music Producers and Enthusiasts
         </p>
 
-        <div class="grid grid-cols-[auto,1fr] gap-x-14 gap-y-3 mb-16 max-lg:grid-cols-1">
-            <h2 class="font-bold text-5xl text-teal-900">Tags</h2>
-            <CategoryList categories={["tag1", "tag2"]} />
-        </div>
+
+        <CategoryList categories={["tag1", "tag2"]} title="Tags" />
+
 
 
         <div class="mb-12">

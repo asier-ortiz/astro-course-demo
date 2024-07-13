@@ -1,14 +1,14 @@
 ---
-import {CollectionEntry, getCollection} from "astro:content"
+import {CollectionEntry, getCollection} from "astro:content";
 
-import Layout from "../../../layouts/Layout.astro"
-import PostList from "../../../components/PostList.astro"
-import Category from "../../../components/Category.astro"
-import Main from "../../../components/Main.astro"
-import Pagination from "../../../components/Pagination.astro"
-import {getAllCategories} from "../../../utils/categories"
+import Layout from "../../../layouts/Layout.astro";
+import PostList from "../../../components/PostList.astro";
+import Category from "../../../components/Category.astro";
+import Main from "../../../components/Main.astro";
+import Pagination from "../../../components/Pagination.astro";
+import {getAllCategories} from "../../../utils/categories";
 
-import type {GetStaticPathsOptions, Page} from "astro"
+import type {GetStaticPathsOptions, Page} from "astro";
 
 export const getStaticPaths = async ({paginate}: GetStaticPathsOptions) => {
     const posts = await getCollection("posts")

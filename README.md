@@ -31,3 +31,8 @@ To get started with the project, you can use the following commands:
 ## Deployment
 
 The site can be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/). Ensure that your production build is optimized and that the necessary environment variables are set up in your deployment provider's dashboard.
+
+## Screenshots
+
+<img src="./screenshots/screenshot-1.png" alt="Screenshot 1" width="300" />
+<img src="./screenshots/screenshot-2.png" alt="Screenshot 2" width="300" />

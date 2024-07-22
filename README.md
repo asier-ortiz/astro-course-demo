@@ -1,54 +1,33 @@
-# Astro Starter Kit: Basics
+# Astro Course Demo
 
-```sh
-npm create astro@latest -- --template basics
-```
+This repository contains the source code from a tutorial project designed to teach you how to use Astro. Course available at [https://learn.jamesqquick.com/](https://learn.jamesqquick.com/).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## About the Project
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This tutorial project is divided into several sections that cover different aspects of developing with Astro, including:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Introduction to Astro**: Basics and core concepts.
+- **Project Structure**: Organizing files and folders in an Astro project.
+- **Astro Components**: Creating and using components.
+- **Styling with Tailwind CSS**: Integrating and using Tailwind CSS in Astro.
+- **Routing and Navigation**: Setting up routes and navigation in an Astro application.
+- **Deployment**: How to deploy a website built with Astro.
 
-## 🚀 Project Structure
+## Getting Started
 
-Inside of your Astro project, you'll see the following folders and files:
+To get started with the project, you can use the following commands:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+### Commands
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run dev`             | Starts local dev server at `localhost:3000`      |
+| `npm run build`           | Builds your production site to `./dist/`         |
+| `npm run preview`         | Previews your build locally, before deploying    |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The site can be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/). Ensure that your production build is optimized and that the necessary environment variables are set up in your deployment provider's dashboard.
